@@ -2,9 +2,11 @@
 
 ### Collection of Terraform scripts with varying levels of complexity and features.
 
-#### Work-In-Progress
+#### (Work-In-Progress)
 
 ### Used for testing and experientation:
  - New features
  - Version upgrades
  - Expanded use based on business demand
+
+### At the moment, written only for AWS
