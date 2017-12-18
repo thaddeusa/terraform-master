@@ -14,7 +14,10 @@
 
 ### folders
 #### simple-standalone
- - basic set of Terraform scripts
  - makes use of Terraform basics
  - local state file storage
  - no modules
+
+##### Requirements:
+ - AWS CLI profile on local machine
+ - Set up AWS EC2 key-pair
