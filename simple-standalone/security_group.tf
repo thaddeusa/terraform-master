@@ -1,5 +1,5 @@
-resource "aws_security_group" "amz-linix-sg" {
-    name = "${var.environment}-amz-linix-sg"
+resource "aws_security_group" "amz-linux-sg" {
+    name = "${var.environment}-amz-linux-sg"
     description = "Allow incoming connections for web, ssh traffic."
     vpc_id = "${aws_vpc.vpc1.id}"
     tags {
