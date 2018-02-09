@@ -1,5 +1,6 @@
 resource "aws_vpc" "vpc1" {
     cidr_block = "${var.vpc1_cidr}"
+    enable_dns_hostnames = true
     tags {
         Name = "${var.environment}-vpc1"
     }
